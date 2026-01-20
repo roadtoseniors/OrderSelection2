@@ -1,0 +1,502 @@
+{
+  "info": {
+    "_postman_id": "06399a32-aece-4b93-b098-f4aef36d4ef3",
+    "name": "OrderSelection2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "40562705"
+  },
+  "item": [
+    {
+      "name": "GetCategotials",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "GetCategotials",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/categotials",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "categotials"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:48:15 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"categorial\": \"Срочно\"\n    },\n    {\n        \"id\": 2,\n        \"categorial\": \"Не срочно\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "GetClients",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/clients",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "clients"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GetClients",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/clients",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "clients"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:48:48 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"fullName\": \"Потапов Макар Иванович\",\n        \"phone\": \"+7(781)285-5837\",\n        \"dateOfBirthd\": \"03.01.1990\",\n        \"personalSale\": \"12,89\"\n    },\n    {\n        \"id\": 2,\n        \"fullName\": \"Ефремова Елизавета Романовна\",\n        \"phone\": \"+7(230)906-8810\",\n        \"dateOfBirthd\": \"21.05.1999\",\n        \"personalSale\": \"17,90\"\n    },\n    {\n        \"id\": 3,\n        \"fullName\": \"Кузнецова Анастасия Денисовна\",\n        \"phone\": \"+7(555)444-8311\",\n        \"dateOfBirthd\": \"19.09.1992\",\n        \"personalSale\": \"31,11\"\n    },\n    {\n        \"id\": 4,\n        \"fullName\": \"Васильева Алиса Ивановна\",\n        \"phone\": \"+7(392)682-4441\",\n        \"dateOfBirthd\": \"29.12.1979\",\n        \"personalSale\": null\n    },\n    {\n        \"id\": 5,\n        \"fullName\": \"Поликарпов Матвей Лукич \",\n        \"phone\": \"+7(836)429-0343\",\n        \"dateOfBirthd\": \"08.05.1999\",\n        \"personalSale\": null\n    },\n    {\n        \"id\": 6,\n        \"fullName\": \"Антонова Алия Марковна\",\n        \"phone\": \"+7(283)945-5692\",\n        \"dateOfBirthd\": \"06.11.1994\",\n        \"personalSale\": null\n    },\n    {\n        \"id\": 7,\n        \"fullName\": \"Александрова Полина Дмитриевна\",\n        \"phone\": \"+7(991)359-3669\",\n        \"dateOfBirthd\": \"21.04.1994\",\n        \"personalSale\": null\n    },\n    {\n        \"id\": 8,\n        \"fullName\": \"Кудряшова Марина Мироновна\",\n        \"phone\": \"+7(440)561-0674\",\n        \"dateOfBirthd\": \"25.02.1975\",\n        \"personalSale\": null\n    },\n    {\n        \"id\": 9,\n        \"fullName\": \"Зотов Платон Захарович\",\n        \"phone\": \"+7(331)118-2434\",\n        \"dateOfBirthd\": \"13.05.1975\",\n        \"personalSale\": \"23,20\"\n    },\n    {\n        \"id\": 10,\n        \"fullName\": \"Глебова Ксения Савельевна\",\n        \"phone\": \"+7(493)-219-1942\",\n        \"dateOfBirthd\": \"25.11.1974\",\n        \"personalSale\": \"11,66\"\n    },\n    {\n        \"id\": 11,\n        \"fullName\": \"Виноградов Борис Станиславович\",\n        \"phone\": \"+7(407)481-5030\",\n        \"dateOfBirthd\": \"23.02.1990\",\n        \"personalSale\": null\n    },\n    {\n        \"id\": 12,\n        \"fullName\": \"Федорова Ева Максимовна\",\n        \"phone\": \"+7(919)418-2497\",\n        \"dateOfBirthd\": \"13.07.1977\",\n        \"personalSale\": null\n    },\n    {\n        \"id\": 13,\n        \"fullName\": \"Смирнов Максим Владиславович\",\n        \"phone\": \"+7(790)388-2563\",\n        \"dateOfBirthd\": \"23.12.1975\",\n        \"personalSale\": null\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "GetEmployers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/employers",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "employers"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GetEmployers",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/employers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "employers"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:49:12 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"role\": 1,\n        \"fullName\": \"Акимов Ян Алексеевич\",\n        \"email\": \"gohufreilagrau-3818@yopmail.com\",\n        \"login\": \"akimovya\",\n        \"password\": \"bn069Caj\",\n        \"phone\": \"+7(781) 785-5837\",\n        \"passport\": 2367558134,\n        \"dateOfBirthd\": \"03.07.1993\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"role\": 2,\n        \"fullName\": \"Гончарова Ульяна Львовна\",\n        \"email\": \"xawugosune-1385@yopmail.com\",\n        \"login\": \"goncharovaul\",\n        \"password\": \"pW4qZhL!\",\n        \"phone\": \"+7(230) 906-8815\",\n        \"passport\": 7101669343,\n        \"dateOfBirthd\": \"22.06.1975\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 3,\n        \"role\": 3,\n        \"fullName\": \"Анохина Елизавета Матвеевна\",\n        \"email\": \"leuttevitrafo1998@mail.ru\",\n        \"login\": \"anochinaem\",\n        \"password\": \"y6UNmaJg\",\n        \"phone\": \"+7(555 444-8316\",\n        \"passport\": 3455719630,\n        \"dateOfBirthd\": \"16.08.1991\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 3,\n            \"role1\": \"Администратор\"\n        }\n    },\n    {\n        \"id\": 4,\n        \"role\": 1,\n        \"fullName\": \"Николаев Илья Владиславович\",\n        \"email\": \"frapreubrulloba1141@yandex.ru\",\n        \"login\": \"nickolaeviv\",\n        \"password\": \"ebOt@4y$\",\n        \"phone\": \"+7(392 682-4442\",\n        \"passport\": 2377871623,\n        \"dateOfBirthd\": \"22.12.1970\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 5,\n        \"role\": 2,\n        \"fullName\": \"Уткин Дмитрий Платонович\",\n        \"email\": \"zapramaxesu-7741@yopmail.com\",\n        \"login\": \"utkindp\",\n        \"password\": \"zQt8g@GH\",\n        \"phone\": \"+7(836 429-0386\",\n        \"passport\": 8755921148,\n        \"dateOfBirthd\": \"04.05.1999\",\n        \"typeLogin\": 0,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 6,\n        \"role\": 2,\n        \"fullName\": \"Куликова Стефания Никитична\",\n        \"email\": \"rouzecroummegre-3899@yopmail.com\",\n        \"login\": \"kulikovasn\",\n        \"password\": \"TCmE7Jon\",\n        \"phone\": \"+7(283 945-3092\",\n        \"passport\": 4355104594,\n        \"dateOfBirthd\": \"06.12.1994\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 7,\n        \"role\": 2,\n        \"fullName\": \"Волков Егор Матвеевич\",\n        \"email\": \"ziyeuddocrabri-4748@@yopmail.com\",\n        \"login\": \"volkovem\",\n        \"password\": \"pbgO3Vv5\",\n        \"phone\": \"+7(621 359-3669\",\n        \"passport\": 2791114390,\n        \"dateOfBirthd\": \"28.03.1995\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 8,\n        \"role\": 3,\n        \"fullName\": \"Соколова Софья Георгиевна\",\n        \"email\": \"ketameissoinnei-1951@yopmail.com\",\n        \"login\": \"sokolovasg\",\n        \"password\": \"lITaH?Bs\",\n        \"phone\": \"+7(440 561-0314\",\n        \"passport\": 5582126286,\n        \"dateOfBirthd\": \"27.03.1977\",\n        \"typeLogin\": 0,\n        \"roleNavigation\": {\n            \"id\": 3,\n            \"role1\": \"Администратор\"\n        }\n    },\n    {\n        \"id\": 9,\n        \"role\": 1,\n        \"fullName\": \"Голубева Полина Андреевна\",\n        \"email\": \"yipraubaponou-5849@yopmail.com\",\n        \"login\": \"golubevapa\",\n        \"password\": \"s|ke*p@~\",\n        \"phone\": \"+7(331 918-2434\",\n        \"passport\": 2978133653,\n        \"dateOfBirthd\": \"12.04.1975\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 10,\n        \"role\": 1,\n        \"fullName\": \"Вишневская Мария Андреевна\",\n        \"email\": \"crapedocouca-3572@yopmail.com\",\n        \"login\": \"vishnevskayama\",\n        \"password\": \"OCaywHJZ\",\n        \"phone\": \"+7(493) 219-3942\",\n        \"passport\": 7512141956,\n        \"dateOfBirthd\": \"23.12.1975\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 11,\n        \"role\": 1,\n        \"fullName\": \"Васильева Арина Данииловна\",\n        \"email\": \"ceigoixakaunni-9227@yopmail.com\",\n        \"login\": \"vasilevad\",\n        \"password\": \"DAWuV%#u\",\n        \"phone\": \"+7(407) 485-5030\",\n        \"passport\": 5046158433,\n        \"dateOfBirthd\": \"22.01.2000\",\n        \"typeLogin\": 0,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 12,\n        \"role\": 1,\n        \"fullName\": \"Павлов Дмитрий Максимович\",\n        \"email\": \"yeimmeiwauzomo-7054@yopmail.com\",\n        \"login\": \"pavlovdm\",\n        \"password\": \"ptoED%zE\",\n        \"phone\": \"+7(919) 478-2497\",\n        \"passport\": 2460169505,\n        \"dateOfBirthd\": \"03.10.1983\",\n        \"typeLogin\": 0,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 13,\n        \"role\": 2,\n        \"fullName\": \"Горбунова Мирослава Артуровна\",\n        \"email\": \"pixil59@gmail.com\",\n        \"login\": \"gorbunovama\",\n        \"password\": \"ZFR2~Zl*\",\n        \"phone\": \"+7(482) 802-9580\",\n        \"passport\": 3412174593,\n        \"dateOfBirthd\": \"03.03.1998\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 14,\n        \"role\": 1,\n        \"fullName\": \"Демина София Романовна\",\n        \"email\": \"deummecillummu-4992@mail.ru\\n\",\n        \"login\": \"deminasr\",\n        \"password\": \"D%DVKyDN\",\n        \"phone\": \"+7(455) 944-6449\",\n        \"passport\": 4950183034,\n        \"dateOfBirthd\": \"08.06.1993\",\n        \"typeLogin\": 0,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 15,\n        \"role\": 2,\n        \"fullName\": \"Петрова Алина Робертовна\",\n        \"email\": \"vilagajaunne-5170@yandex.ru\",\n        \"login\": \"petrovaar\",\n        \"password\": \"z7ZE?8N5\",\n        \"phone\": \"+7(710) 388-2563\",\n        \"passport\": 5829219464,\n        \"dateOfBirthd\": \"23.09.1980\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 16,\n        \"role\": 2,\n        \"fullName\": \"Плотников Григорий Александрович\",\n        \"email\": \"frusubroppotou656@yandex.ru\",\n        \"login\": \"plotnikovga\",\n        \"password\": \"yh+S4@yc\",\n        \"phone\": \"+7(759) 452-3846\",\n        \"passport\": 6443208059,\n        \"dateOfBirthd\": \"13.03.1991\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 17,\n        \"role\": 2,\n        \"fullName\": \"Прохорова Есения Тимофеевна\",\n        \"email\": \"vhopkins@lewis-mullen.com\",\n        \"login\": \"prochorovaet\",\n        \"password\": \"wLF186dB\",\n        \"phone\": \"+7(687) 801-1332\",\n        \"passport\": 7079213265,\n        \"dateOfBirthd\": \"14.04.1998\",\n        \"typeLogin\": null,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 18,\n        \"role\": 2,\n        \"fullName\": \"Чернов Алексей Егорович\",\n        \"email\": \"nlewis@yahoo.com\",\n        \"login\": \"chernovae\",\n        \"password\": \"Sjkr*1zV\",\n        \"phone\": \"+7(425) 783-2253\",\n        \"passport\": 8207522702,\n        \"dateOfBirthd\": \"16.04.1980\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 19,\n        \"role\": 1,\n        \"fullName\": \"Горбунов Степан Артёмович\",\n        \"email\": \"garciadavid@mckinney-mcbride.com\",\n        \"login\": \"gorbunovsa\",\n        \"password\": \"hFhK%$JI\",\n        \"phone\": \"+7(889) 449-4391\",\n        \"passport\": 9307232158,\n        \"dateOfBirthd\": \"23.07.1993\",\n        \"typeLogin\": 1,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 20,\n        \"role\": 2,\n        \"fullName\": \"Рябинина Софья Артёмовна\",\n        \"email\": \"loudittoimmolau1900@gmail.com\",\n        \"login\": \"ryabininasa\",\n        \"password\": \"&yw1da4K\",\n        \"phone\": \"+7(825) 301-8250\",\n        \"passport\": 1357242839,\n        \"dateOfBirthd\": \"01.06.1990\",\n        \"typeLogin\": null,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 21,\n        \"role\": 2,\n        \"fullName\": \"Козлова Яна Даниловна\",\n        \"email\": \"hittuprofassa4984@mail.com\",\n        \"login\": \"kozlovayd\",\n        \"password\": \"wCH7dl3k\",\n        \"phone\": \"+7(397) 334-2086\",\n        \"passport\": 1167256636,\n        \"dateOfBirthd\": \"21.12.1987\",\n        \"typeLogin\": null,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 22,\n        \"role\": 1,\n        \"fullName\": \"Лукьянова Ульяна Олеговна\",\n        \"email\": \"freineiciweijau888@yandex.ru\",\n        \"login\": \"lyckyanovayo\",\n        \"password\": \"JadQ24D5\",\n        \"phone\": \"+7(241) 570-3040\",\n        \"passport\": 1768266986,\n        \"dateOfBirthd\": \"22.10.1981\",\n        \"typeLogin\": null,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 23,\n        \"role\": 2,\n        \"fullName\": \"Кондрашова Арина Ивановна\",\n        \"email\": \"jessica84@hotmail.com\",\n        \"login\": \"kondrashovai\",\n        \"password\": \"YlBz$8vJ\",\n        \"phone\": \"+7(713) 462-8265\",\n        \"passport\": 1710427875,\n        \"dateOfBirthd\": \"22.12.1976\",\n        \"typeLogin\": 0,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    },\n    {\n        \"id\": 24,\n        \"role\": 1,\n        \"fullName\": \"Быкова Виктория Тимуровна\",\n        \"email\": \"nokupekidda2001@gmail.com\",\n        \"login\": \"bykovavt\",\n        \"password\": \"nx8Z$K98\",\n        \"phone\": \"+7(854) 822-2331\",\n        \"passport\": 1806289145,\n        \"dateOfBirthd\": \"14.06.1973\",\n        \"typeLogin\": null,\n        \"roleNavigation\": {\n            \"id\": 1,\n            \"role1\": \"Менеджер\"\n        }\n    },\n    {\n        \"id\": 25,\n        \"role\": 2,\n        \"fullName\": \"Гуляев Тимофей Даниилович\",\n        \"email\": \"ginaritter@schneider-buchanan.com\",\n        \"login\": \"gylyaevtd\",\n        \"password\": \"lz$kp1?f\",\n        \"phone\": \"+7(439) 713-6117\",\n        \"passport\": 1587291249,\n        \"dateOfBirthd\": \"05.02.1987\",\n        \"typeLogin\": 0,\n        \"roleNavigation\": {\n            \"id\": 2,\n            \"role1\": \"Исполнитель\"\n        }\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "GetOrders",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/orders",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "orders"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GetOrders",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/orders",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "orders"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:49:35 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"executorId\": 2,\n        \"dateOpenOrder\": \"12.02.2023 11:56:09\",\n        \"dateCloseOrder\": null,\n        \"orderStatus\": 1,\n        \"description\": null,\n        \"sum\": null,\n        \"inArchive\": 0,\n        \"categorial\": 1,\n        \"categorialNavigation\": {\n            \"id\": 1,\n            \"categorial\": \"Срочно\"\n        },\n        \"clients\": {\n            \"id\": 4,\n            \"fullName\": \"Васильева Алиса Ивановна\",\n            \"phone\": \"+7(392)682-4441\",\n            \"dateOfBirthd\": \"29.12.1979\",\n            \"personalSale\": null\n        },\n        \"manager\": {\n            \"id\": 1,\n            \"role\": 1,\n            \"fullName\": \"Акимов Ян Алексеевич\",\n            \"email\": \"gohufreilagrau-3818@yopmail.com\",\n            \"login\": \"akimovya\",\n            \"password\": \"bn069Caj\",\n            \"phone\": \"+7(781) 785-5837\",\n            \"passport\": 2367558134,\n            \"dateOfBirthd\": \"03.07.1993\",\n            \"typeLogin\": 1,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 1,\n            \"orderStatus1\": \"Новый \"\n        }\n    },\n    {\n        \"id\": 2,\n        \"executorId\": 13,\n        \"dateOpenOrder\": \"03.02.2023 07:55:24\",\n        \"dateCloseOrder\": null,\n        \"orderStatus\": 1,\n        \"description\": null,\n        \"sum\": null,\n        \"inArchive\": 0,\n        \"categorial\": 2,\n        \"categorialNavigation\": {\n            \"id\": 2,\n            \"categorial\": \"Не срочно\"\n        },\n        \"clients\": {\n            \"id\": 5,\n            \"fullName\": \"Поликарпов Матвей Лукич \",\n            \"phone\": \"+7(836)429-0343\",\n            \"dateOfBirthd\": \"08.05.1999\",\n            \"personalSale\": null\n        },\n        \"manager\": {\n            \"id\": 4,\n            \"role\": 1,\n            \"fullName\": \"Николаев Илья Владиславович\",\n            \"email\": \"frapreubrulloba1141@yandex.ru\",\n            \"login\": \"nickolaeviv\",\n            \"password\": \"ebOt@4y$\",\n            \"phone\": \"+7(392 682-4442\",\n            \"passport\": 2377871623,\n            \"dateOfBirthd\": \"22.12.1970\",\n            \"typeLogin\": 1,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 1,\n            \"orderStatus1\": \"Новый \"\n        }\n    },\n    {\n        \"id\": 3,\n        \"executorId\": 15,\n        \"dateOpenOrder\": \"12.02.2023 00:08:45\",\n        \"dateCloseOrder\": \"12.02.2023 11:08:11\",\n        \"orderStatus\": 2,\n        \"description\": null,\n        \"sum\": \"600,87\",\n        \"inArchive\": 1,\n        \"categorial\": 2,\n        \"categorialNavigation\": {\n            \"id\": 2,\n            \"categorial\": \"Не срочно\"\n        },\n        \"clients\": {\n            \"id\": 6,\n            \"fullName\": \"Антонова Алия Марковна\",\n            \"phone\": \"+7(283)945-5692\",\n            \"dateOfBirthd\": \"06.11.1994\",\n            \"personalSale\": null\n        },\n        \"manager\": {\n            \"id\": 9,\n            \"role\": 1,\n            \"fullName\": \"Голубева Полина Андреевна\",\n            \"email\": \"yipraubaponou-5849@yopmail.com\",\n            \"login\": \"golubevapa\",\n            \"password\": \"s|ke*p@~\",\n            \"phone\": \"+7(331 918-2434\",\n            \"passport\": 2978133653,\n            \"dateOfBirthd\": \"12.04.1975\",\n            \"typeLogin\": 1,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 2,\n            \"orderStatus1\": \"Завершен\"\n        }\n    },\n    {\n        \"id\": 4,\n        \"executorId\": 16,\n        \"dateOpenOrder\": \"12.02.2023 18:28:26\",\n        \"dateCloseOrder\": \"12.02.2023 20:30:31\",\n        \"orderStatus\": 2,\n        \"description\": \"Со слов: перестал включаться\",\n        \"sum\": \"765,87\",\n        \"inArchive\": 0,\n        \"categorial\": 1,\n        \"categorialNavigation\": {\n            \"id\": 1,\n            \"categorial\": \"Срочно\"\n        },\n        \"clients\": {\n            \"id\": 7,\n            \"fullName\": \"Александрова Полина Дмитриевна\",\n            \"phone\": \"+7(991)359-3669\",\n            \"dateOfBirthd\": \"21.04.1994\",\n            \"personalSale\": null\n        },\n        \"manager\": {\n            \"id\": 10,\n            \"role\": 1,\n            \"fullName\": \"Вишневская Мария Андреевна\",\n            \"email\": \"crapedocouca-3572@yopmail.com\",\n            \"login\": \"vishnevskayama\",\n            \"password\": \"OCaywHJZ\",\n            \"phone\": \"+7(493) 219-3942\",\n            \"passport\": 7512141956,\n            \"dateOfBirthd\": \"23.12.1975\",\n            \"typeLogin\": 1,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 2,\n            \"orderStatus1\": \"Завершен\"\n        }\n    },\n    {\n        \"id\": 5,\n        \"executorId\": 18,\n        \"dateOpenOrder\": \"07.02.2023 00:23:48\",\n        \"dateCloseOrder\": \"17.02.2023 00:07:00\",\n        \"orderStatus\": 2,\n        \"description\": null,\n        \"sum\": \"1137,36\",\n        \"inArchive\": 1,\n        \"categorial\": 2,\n        \"categorialNavigation\": {\n            \"id\": 2,\n            \"categorial\": \"Не срочно\"\n        },\n        \"clients\": {\n            \"id\": 3,\n            \"fullName\": \"Кузнецова Анастасия Денисовна\",\n            \"phone\": \"+7(555)444-8311\",\n            \"dateOfBirthd\": \"19.09.1992\",\n            \"personalSale\": \"31,11\"\n        },\n        \"manager\": {\n            \"id\": 11,\n            \"role\": 1,\n            \"fullName\": \"Васильева Арина Данииловна\",\n            \"email\": \"ceigoixakaunni-9227@yopmail.com\",\n            \"login\": \"vasilevad\",\n            \"password\": \"DAWuV%#u\",\n            \"phone\": \"+7(407) 485-5030\",\n            \"passport\": 5046158433,\n            \"dateOfBirthd\": \"22.01.2000\",\n            \"typeLogin\": 0,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 2,\n            \"orderStatus1\": \"Завершен\"\n        }\n    },\n    {\n        \"id\": 6,\n        \"executorId\": 20,\n        \"dateOpenOrder\": \"10.02.2023 13:57:53\",\n        \"dateCloseOrder\": \"12.02.2023 13:00:53\",\n        \"orderStatus\": 2,\n        \"description\": null,\n        \"sum\": \"320,32\",\n        \"inArchive\": 0,\n        \"categorial\": 2,\n        \"categorialNavigation\": {\n            \"id\": 2,\n            \"categorial\": \"Не срочно\"\n        },\n        \"clients\": {\n            \"id\": 4,\n            \"fullName\": \"Васильева Алиса Ивановна\",\n            \"phone\": \"+7(392)682-4441\",\n            \"dateOfBirthd\": \"29.12.1979\",\n            \"personalSale\": null\n        },\n        \"manager\": {\n            \"id\": 12,\n            \"role\": 1,\n            \"fullName\": \"Павлов Дмитрий Максимович\",\n            \"email\": \"yeimmeiwauzomo-7054@yopmail.com\",\n            \"login\": \"pavlovdm\",\n            \"password\": \"ptoED%zE\",\n            \"phone\": \"+7(919) 478-2497\",\n            \"passport\": 2460169505,\n            \"dateOfBirthd\": \"03.10.1983\",\n            \"typeLogin\": 0,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 2,\n            \"orderStatus1\": \"Завершен\"\n        }\n    },\n    {\n        \"id\": 7,\n        \"executorId\": 21,\n        \"dateOpenOrder\": \"12.02.2023 09:45:27\",\n        \"dateCloseOrder\": null,\n        \"orderStatus\": 1,\n        \"description\": \"Необходимо настроить ПК по индивидуальным параметрам\",\n        \"sum\": null,\n        \"inArchive\": 0,\n        \"categorial\": 1,\n        \"categorialNavigation\": {\n            \"id\": 1,\n            \"categorial\": \"Срочно\"\n        },\n        \"clients\": {\n            \"id\": 7,\n            \"fullName\": \"Александрова Полина Дмитриевна\",\n            \"phone\": \"+7(991)359-3669\",\n            \"dateOfBirthd\": \"21.04.1994\",\n            \"personalSale\": null\n        },\n        \"manager\": {\n            \"id\": 4,\n            \"role\": 1,\n            \"fullName\": \"Николаев Илья Владиславович\",\n            \"email\": \"frapreubrulloba1141@yandex.ru\",\n            \"login\": \"nickolaeviv\",\n            \"password\": \"ebOt@4y$\",\n            \"phone\": \"+7(392 682-4442\",\n            \"passport\": 2377871623,\n            \"dateOfBirthd\": \"22.12.1970\",\n            \"typeLogin\": 1,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 1,\n            \"orderStatus1\": \"Новый \"\n        }\n    },\n    {\n        \"id\": 8,\n        \"executorId\": 23,\n        \"dateOpenOrder\": \"10.02.2023 11:04:57\",\n        \"dateCloseOrder\": null,\n        \"orderStatus\": 1,\n        \"description\": null,\n        \"sum\": null,\n        \"inArchive\": 0,\n        \"categorial\": 2,\n        \"categorialNavigation\": {\n            \"id\": 2,\n            \"categorial\": \"Не срочно\"\n        },\n        \"clients\": {\n            \"id\": 8,\n            \"fullName\": \"Кудряшова Марина Мироновна\",\n            \"phone\": \"+7(440)561-0674\",\n            \"dateOfBirthd\": \"25.02.1975\",\n            \"personalSale\": null\n        },\n        \"manager\": {\n            \"id\": 9,\n            \"role\": 1,\n            \"fullName\": \"Голубева Полина Андреевна\",\n            \"email\": \"yipraubaponou-5849@yopmail.com\",\n            \"login\": \"golubevapa\",\n            \"password\": \"s|ke*p@~\",\n            \"phone\": \"+7(331 918-2434\",\n            \"passport\": 2978133653,\n            \"dateOfBirthd\": \"12.04.1975\",\n            \"typeLogin\": 1,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 1,\n            \"orderStatus1\": \"Новый \"\n        }\n    },\n    {\n        \"id\": 9,\n        \"executorId\": 25,\n        \"dateOpenOrder\": \"07.02.2023 22:34:04\",\n        \"dateCloseOrder\": null,\n        \"orderStatus\": 1,\n        \"description\": null,\n        \"sum\": null,\n        \"inArchive\": 0,\n        \"categorial\": 1,\n        \"categorialNavigation\": {\n            \"id\": 1,\n            \"categorial\": \"Срочно\"\n        },\n        \"clients\": {\n            \"id\": 9,\n            \"fullName\": \"Зотов Платон Захарович\",\n            \"phone\": \"+7(331)118-2434\",\n            \"dateOfBirthd\": \"13.05.1975\",\n            \"personalSale\": \"23,20\"\n        },\n        \"manager\": {\n            \"id\": 22,\n            \"role\": 1,\n            \"fullName\": \"Лукьянова Ульяна Олеговна\",\n            \"email\": \"freineiciweijau888@yandex.ru\",\n            \"login\": \"lyckyanovayo\",\n            \"password\": \"JadQ24D5\",\n            \"phone\": \"+7(241) 570-3040\",\n            \"passport\": 1768266986,\n            \"dateOfBirthd\": \"22.10.1981\",\n            \"typeLogin\": null,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 1,\n            \"orderStatus1\": \"Новый \"\n        }\n    },\n    {\n        \"id\": 10,\n        \"executorId\": 5,\n        \"dateOpenOrder\": \"08.02.2023 14:07:22\",\n        \"dateCloseOrder\": \"11.02.2023 15:05:00\",\n        \"orderStatus\": 2,\n        \"description\": null,\n        \"sum\": \"427,59\",\n        \"inArchive\": 0,\n        \"categorial\": 2,\n        \"categorialNavigation\": {\n            \"id\": 2,\n            \"categorial\": \"Не срочно\"\n        },\n        \"clients\": {\n            \"id\": 1,\n            \"fullName\": \"Потапов Макар Иванович\",\n            \"phone\": \"+7(781)285-5837\",\n            \"dateOfBirthd\": \"03.01.1990\",\n            \"personalSale\": \"12,89\"\n        },\n        \"manager\": {\n            \"id\": 24,\n            \"role\": 1,\n            \"fullName\": \"Быкова Виктория Тимуровна\",\n            \"email\": \"nokupekidda2001@gmail.com\",\n            \"login\": \"bykovavt\",\n            \"password\": \"nx8Z$K98\",\n            \"phone\": \"+7(854) 822-2331\",\n            \"passport\": 1806289145,\n            \"dateOfBirthd\": \"14.06.1973\",\n            \"typeLogin\": null,\n            \"roleNavigation\": {\n                \"id\": 1,\n                \"role1\": \"Менеджер\"\n            }\n        },\n        \"orderStatusNavigation\": {\n            \"id\": 2,\n            \"orderStatus1\": \"Завершен\"\n        }\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "GetOrderStatus",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/order_status",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "order_status"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GetOrderStatus",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/order_status",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "order_status"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:49:59 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"orderStatus1\": \"Новый \"\n    },\n    {\n        \"id\": 2,\n        \"orderStatus1\": \"Завершен\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "GetRoles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/roles",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "roles"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GetRoles",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/roles",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "roles"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:50:31 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"role1\": \"Менеджер\"\n    },\n    {\n        \"id\": 2,\n        \"role1\": \"Исполнитель\"\n    },\n    {\n        \"id\": 3,\n        \"role1\": \"Администратор\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "GetServices",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/services",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "services"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GetServices",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/services",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "services"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:50:58 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"nameServices\": \"Ремонт/Замена корпуса ноутбука\",\n        \"priceServices\": \"190,00\"\n    },\n    {\n        \"id\": 2,\n        \"nameServices\": \"Чистка операционной системы от ошибок и мусорных файлов\",\n        \"priceServices\": \"320,32\"\n    },\n    {\n        \"id\": 3,\n        \"nameServices\": \"Диагностика ноутбука\",\n        \"priceServices\": \"350,00\"\n    },\n    {\n        \"id\": 4,\n        \"nameServices\": \"Диагностика компьютерной техники\",\n        \"priceServices\": \"450,00\"\n    },\n    {\n        \"id\": 5,\n        \"nameServices\": \"Замена процессора на ноутбуке\",\n        \"priceServices\": \"765,87\"\n    },\n    {\n        \"id\": 6,\n        \"nameServices\": \"Восстановление случайно удаленных данных из корзины\",\n        \"priceServices\": \"850,00\"\n    },\n    {\n        \"id\": 7,\n        \"nameServices\": \"Ремонт/Замена клавиатуры ноутбука\",\n        \"priceServices\": \"870,00\"\n    },\n    {\n        \"id\": 8,\n        \"nameServices\": \"Профилактика - Чистка ноутбука от пыли + замена термопасты\",\n        \"priceServices\": \"870,00\"\n    },\n    {\n        \"id\": 9,\n        \"nameServices\": \"Установка драйверов устройств\",\n        \"priceServices\": \"900,00\"\n    },\n    {\n        \"id\": 10,\n        \"nameServices\": \"Форматирование и создание раздела жесткого диска\",\n        \"priceServices\": \"1000,00\"\n    },\n    {\n        \"id\": 11,\n        \"nameServices\": \"Индивидуальная настройка ОС\",\n        \"priceServices\": \"1100,00\"\n    },\n    {\n        \"id\": 12,\n        \"nameServices\": \"Дефрагментация жесткого диска\",\n        \"priceServices\": \"1500,00\"\n    },\n    {\n        \"id\": 13,\n        \"nameServices\": \"Установка специализированных утилит\",\n        \"priceServices\": \"1650,98\"\n    },\n    {\n        \"id\": 14,\n        \"nameServices\": \"Удаление вирусов с компьютера (без установки антивируса)\",\n        \"priceServices\": \"1700,80\"\n    },\n    {\n        \"id\": 15,\n        \"nameServices\": \"Удаление вирусов с карт памяти и флешек\",\n        \"priceServices\": \"2310,10\"\n    },\n    {\n        \"id\": 16,\n        \"nameServices\": \"Разблокировка Windows без переустановки (удаление банера)\",\n        \"priceServices\": \"2400,23\"\n    },\n    {\n        \"id\": 17,\n        \"nameServices\": \"Установка мультимедиа и интернет программ (плеер, браузер и пр.)\",\n        \"priceServices\": \"490,87\"\n    },\n    {\n        \"id\": 18,\n        \"nameServices\": \"Установка ОС\",\n        \"priceServices\": \"540,99\"\n    },\n    {\n        \"id\": 19,\n        \"nameServices\": \"Установка антивируса (без стоимости лицензии)\",\n        \"priceServices\": \"600,87\"\n    },\n    {\n        \"id\": 20,\n        \"nameServices\": \"Ремонт блока питания ноутбука\",\n        \"priceServices\": \"650,98\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "GetServicesOrders",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/services_orders",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "services_orders"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GetServicesOrders",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/services_orders",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "services_orders"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Date",
+              "value": "Tue, 20 Jan 2026 08:51:45 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Kestrel"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"order\": {\n            \"id\": 1,\n            \"executorId\": 2,\n            \"dateOpenOrder\": \"12.02.2023 11:56:09\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 1,\n            \"categorialNavigation\": {\n                \"id\": 1,\n                \"categorial\": \"Срочно\"\n            },\n            \"clients\": {\n                \"id\": 4,\n                \"fullName\": \"Васильева Алиса Ивановна\",\n                \"phone\": \"+7(392)682-4441\",\n                \"dateOfBirthd\": \"29.12.1979\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 1,\n                \"role\": 1,\n                \"fullName\": \"Акимов Ян Алексеевич\",\n                \"email\": \"gohufreilagrau-3818@yopmail.com\",\n                \"login\": \"akimovya\",\n                \"password\": \"bn069Caj\",\n                \"phone\": \"+7(781) 785-5837\",\n                \"passport\": 2367558134,\n                \"dateOfBirthd\": \"03.07.1993\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 4,\n            \"nameServices\": \"Диагностика компьютерной техники\",\n            \"priceServices\": \"450,00\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"order\": {\n            \"id\": 1,\n            \"executorId\": 2,\n            \"dateOpenOrder\": \"12.02.2023 11:56:09\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 1,\n            \"categorialNavigation\": {\n                \"id\": 1,\n                \"categorial\": \"Срочно\"\n            },\n            \"clients\": {\n                \"id\": 4,\n                \"fullName\": \"Васильева Алиса Ивановна\",\n                \"phone\": \"+7(392)682-4441\",\n                \"dateOfBirthd\": \"29.12.1979\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 1,\n                \"role\": 1,\n                \"fullName\": \"Акимов Ян Алексеевич\",\n                \"email\": \"gohufreilagrau-3818@yopmail.com\",\n                \"login\": \"akimovya\",\n                \"password\": \"bn069Caj\",\n                \"phone\": \"+7(781) 785-5837\",\n                \"passport\": 2367558134,\n                \"dateOfBirthd\": \"03.07.1993\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 18,\n            \"nameServices\": \"Установка ОС\",\n            \"priceServices\": \"540,99\"\n        }\n    },\n    {\n        \"id\": 3,\n        \"order\": {\n            \"id\": 2,\n            \"executorId\": 13,\n            \"dateOpenOrder\": \"03.02.2023 07:55:24\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 5,\n                \"fullName\": \"Поликарпов Матвей Лукич \",\n                \"phone\": \"+7(836)429-0343\",\n                \"dateOfBirthd\": \"08.05.1999\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 4,\n                \"role\": 1,\n                \"fullName\": \"Николаев Илья Владиславович\",\n                \"email\": \"frapreubrulloba1141@yandex.ru\",\n                \"login\": \"nickolaeviv\",\n                \"password\": \"ebOt@4y$\",\n                \"phone\": \"+7(392 682-4442\",\n                \"passport\": 2377871623,\n                \"dateOfBirthd\": \"22.12.1970\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 10,\n            \"nameServices\": \"Форматирование и создание раздела жесткого диска\",\n            \"priceServices\": \"1000,00\"\n        }\n    },\n    {\n        \"id\": 4,\n        \"order\": {\n            \"id\": 2,\n            \"executorId\": 13,\n            \"dateOpenOrder\": \"03.02.2023 07:55:24\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 5,\n                \"fullName\": \"Поликарпов Матвей Лукич \",\n                \"phone\": \"+7(836)429-0343\",\n                \"dateOfBirthd\": \"08.05.1999\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 4,\n                \"role\": 1,\n                \"fullName\": \"Николаев Илья Владиславович\",\n                \"email\": \"frapreubrulloba1141@yandex.ru\",\n                \"login\": \"nickolaeviv\",\n                \"password\": \"ebOt@4y$\",\n                \"phone\": \"+7(392 682-4442\",\n                \"passport\": 2377871623,\n                \"dateOfBirthd\": \"22.12.1970\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 11,\n            \"nameServices\": \"Индивидуальная настройка ОС\",\n            \"priceServices\": \"1100,00\"\n        }\n    },\n    {\n        \"id\": 5,\n        \"order\": {\n            \"id\": 2,\n            \"executorId\": 13,\n            \"dateOpenOrder\": \"03.02.2023 07:55:24\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 5,\n                \"fullName\": \"Поликарпов Матвей Лукич \",\n                \"phone\": \"+7(836)429-0343\",\n                \"dateOfBirthd\": \"08.05.1999\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 4,\n                \"role\": 1,\n                \"fullName\": \"Николаев Илья Владиславович\",\n                \"email\": \"frapreubrulloba1141@yandex.ru\",\n                \"login\": \"nickolaeviv\",\n                \"password\": \"ebOt@4y$\",\n                \"phone\": \"+7(392 682-4442\",\n                \"passport\": 2377871623,\n                \"dateOfBirthd\": \"22.12.1970\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 13,\n            \"nameServices\": \"Установка специализированных утилит\",\n            \"priceServices\": \"1650,98\"\n        }\n    },\n    {\n        \"id\": 6,\n        \"order\": {\n            \"id\": 3,\n            \"executorId\": 15,\n            \"dateOpenOrder\": \"12.02.2023 00:08:45\",\n            \"dateCloseOrder\": \"12.02.2023 11:08:11\",\n            \"orderStatus\": 2,\n            \"description\": null,\n            \"sum\": \"600,87\",\n            \"inArchive\": 1,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 6,\n                \"fullName\": \"Антонова Алия Марковна\",\n                \"phone\": \"+7(283)945-5692\",\n                \"dateOfBirthd\": \"06.11.1994\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 9,\n                \"role\": 1,\n                \"fullName\": \"Голубева Полина Андреевна\",\n                \"email\": \"yipraubaponou-5849@yopmail.com\",\n                \"login\": \"golubevapa\",\n                \"password\": \"s|ke*p@~\",\n                \"phone\": \"+7(331 918-2434\",\n                \"passport\": 2978133653,\n                \"dateOfBirthd\": \"12.04.1975\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 2,\n                \"orderStatus1\": \"Завершен\"\n            }\n        },\n        \"services\": {\n            \"id\": 19,\n            \"nameServices\": \"Установка антивируса (без стоимости лицензии)\",\n            \"priceServices\": \"600,87\"\n        }\n    },\n    {\n        \"id\": 7,\n        \"order\": {\n            \"id\": 4,\n            \"executorId\": 16,\n            \"dateOpenOrder\": \"12.02.2023 18:28:26\",\n            \"dateCloseOrder\": \"12.02.2023 20:30:31\",\n            \"orderStatus\": 2,\n            \"description\": \"Со слов: перестал включаться\",\n            \"sum\": \"765,87\",\n            \"inArchive\": 0,\n            \"categorial\": 1,\n            \"categorialNavigation\": {\n                \"id\": 1,\n                \"categorial\": \"Срочно\"\n            },\n            \"clients\": {\n                \"id\": 7,\n                \"fullName\": \"Александрова Полина Дмитриевна\",\n                \"phone\": \"+7(991)359-3669\",\n                \"dateOfBirthd\": \"21.04.1994\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 10,\n                \"role\": 1,\n                \"fullName\": \"Вишневская Мария Андреевна\",\n                \"email\": \"crapedocouca-3572@yopmail.com\",\n                \"login\": \"vishnevskayama\",\n                \"password\": \"OCaywHJZ\",\n                \"phone\": \"+7(493) 219-3942\",\n                \"passport\": 7512141956,\n                \"dateOfBirthd\": \"23.12.1975\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 2,\n                \"orderStatus1\": \"Завершен\"\n            }\n        },\n        \"services\": {\n            \"id\": 5,\n            \"nameServices\": \"Замена процессора на ноутбуке\",\n            \"priceServices\": \"765,87\"\n        }\n    },\n    {\n        \"id\": 8,\n        \"order\": {\n            \"id\": 5,\n            \"executorId\": 18,\n            \"dateOpenOrder\": \"07.02.2023 00:23:48\",\n            \"dateCloseOrder\": \"17.02.2023 00:07:00\",\n            \"orderStatus\": 2,\n            \"description\": null,\n            \"sum\": \"1137,36\",\n            \"inArchive\": 1,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 3,\n                \"fullName\": \"Кузнецова Анастасия Денисовна\",\n                \"phone\": \"+7(555)444-8311\",\n                \"dateOfBirthd\": \"19.09.1992\",\n                \"personalSale\": \"31,11\"\n            },\n            \"manager\": {\n                \"id\": 11,\n                \"role\": 1,\n                \"fullName\": \"Васильева Арина Данииловна\",\n                \"email\": \"ceigoixakaunni-9227@yopmail.com\",\n                \"login\": \"vasilevad\",\n                \"password\": \"DAWuV%#u\",\n                \"phone\": \"+7(407) 485-5030\",\n                \"passport\": 5046158433,\n                \"dateOfBirthd\": \"22.01.2000\",\n                \"typeLogin\": 0,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 2,\n                \"orderStatus1\": \"Завершен\"\n            }\n        },\n        \"services\": {\n            \"id\": 13,\n            \"nameServices\": \"Установка специализированных утилит\",\n            \"priceServices\": \"1650,98\"\n        }\n    },\n    {\n        \"id\": 9,\n        \"order\": {\n            \"id\": 6,\n            \"executorId\": 20,\n            \"dateOpenOrder\": \"10.02.2023 13:57:53\",\n            \"dateCloseOrder\": \"12.02.2023 13:00:53\",\n            \"orderStatus\": 2,\n            \"description\": null,\n            \"sum\": \"320,32\",\n            \"inArchive\": 0,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 4,\n                \"fullName\": \"Васильева Алиса Ивановна\",\n                \"phone\": \"+7(392)682-4441\",\n                \"dateOfBirthd\": \"29.12.1979\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 12,\n                \"role\": 1,\n                \"fullName\": \"Павлов Дмитрий Максимович\",\n                \"email\": \"yeimmeiwauzomo-7054@yopmail.com\",\n                \"login\": \"pavlovdm\",\n                \"password\": \"ptoED%zE\",\n                \"phone\": \"+7(919) 478-2497\",\n                \"passport\": 2460169505,\n                \"dateOfBirthd\": \"03.10.1983\",\n                \"typeLogin\": 0,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 2,\n                \"orderStatus1\": \"Завершен\"\n            }\n        },\n        \"services\": {\n            \"id\": 2,\n            \"nameServices\": \"Чистка операционной системы от ошибок и мусорных файлов\",\n            \"priceServices\": \"320,32\"\n        }\n    },\n    {\n        \"id\": 10,\n        \"order\": {\n            \"id\": 7,\n            \"executorId\": 21,\n            \"dateOpenOrder\": \"12.02.2023 09:45:27\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": \"Необходимо настроить ПК по индивидуальным параметрам\",\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 1,\n            \"categorialNavigation\": {\n                \"id\": 1,\n                \"categorial\": \"Срочно\"\n            },\n            \"clients\": {\n                \"id\": 7,\n                \"fullName\": \"Александрова Полина Дмитриевна\",\n                \"phone\": \"+7(991)359-3669\",\n                \"dateOfBirthd\": \"21.04.1994\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 4,\n                \"role\": 1,\n                \"fullName\": \"Николаев Илья Владиславович\",\n                \"email\": \"frapreubrulloba1141@yandex.ru\",\n                \"login\": \"nickolaeviv\",\n                \"password\": \"ebOt@4y$\",\n                \"phone\": \"+7(392 682-4442\",\n                \"passport\": 2377871623,\n                \"dateOfBirthd\": \"22.12.1970\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 11,\n            \"nameServices\": \"Индивидуальная настройка ОС\",\n            \"priceServices\": \"1100,00\"\n        }\n    },\n    {\n        \"id\": 11,\n        \"order\": {\n            \"id\": 8,\n            \"executorId\": 23,\n            \"dateOpenOrder\": \"10.02.2023 11:04:57\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 8,\n                \"fullName\": \"Кудряшова Марина Мироновна\",\n                \"phone\": \"+7(440)561-0674\",\n                \"dateOfBirthd\": \"25.02.1975\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 9,\n                \"role\": 1,\n                \"fullName\": \"Голубева Полина Андреевна\",\n                \"email\": \"yipraubaponou-5849@yopmail.com\",\n                \"login\": \"golubevapa\",\n                \"password\": \"s|ke*p@~\",\n                \"phone\": \"+7(331 918-2434\",\n                \"passport\": 2978133653,\n                \"dateOfBirthd\": \"12.04.1975\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 7,\n            \"nameServices\": \"Ремонт/Замена клавиатуры ноутбука\",\n            \"priceServices\": \"870,00\"\n        }\n    },\n    {\n        \"id\": 12,\n        \"order\": {\n            \"id\": 8,\n            \"executorId\": 23,\n            \"dateOpenOrder\": \"10.02.2023 11:04:57\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 8,\n                \"fullName\": \"Кудряшова Марина Мироновна\",\n                \"phone\": \"+7(440)561-0674\",\n                \"dateOfBirthd\": \"25.02.1975\",\n                \"personalSale\": null\n            },\n            \"manager\": {\n                \"id\": 9,\n                \"role\": 1,\n                \"fullName\": \"Голубева Полина Андреевна\",\n                \"email\": \"yipraubaponou-5849@yopmail.com\",\n                \"login\": \"golubevapa\",\n                \"password\": \"s|ke*p@~\",\n                \"phone\": \"+7(331 918-2434\",\n                \"passport\": 2978133653,\n                \"dateOfBirthd\": \"12.04.1975\",\n                \"typeLogin\": 1,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 1,\n            \"nameServices\": \"Ремонт/Замена корпуса ноутбука\",\n            \"priceServices\": \"190,00\"\n        }\n    },\n    {\n        \"id\": 13,\n        \"order\": {\n            \"id\": 9,\n            \"executorId\": 25,\n            \"dateOpenOrder\": \"07.02.2023 22:34:04\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 1,\n            \"categorialNavigation\": {\n                \"id\": 1,\n                \"categorial\": \"Срочно\"\n            },\n            \"clients\": {\n                \"id\": 9,\n                \"fullName\": \"Зотов Платон Захарович\",\n                \"phone\": \"+7(331)118-2434\",\n                \"dateOfBirthd\": \"13.05.1975\",\n                \"personalSale\": \"23,20\"\n            },\n            \"manager\": {\n                \"id\": 22,\n                \"role\": 1,\n                \"fullName\": \"Лукьянова Ульяна Олеговна\",\n                \"email\": \"freineiciweijau888@yandex.ru\",\n                \"login\": \"lyckyanovayo\",\n                \"password\": \"JadQ24D5\",\n                \"phone\": \"+7(241) 570-3040\",\n                \"passport\": 1768266986,\n                \"dateOfBirthd\": \"22.10.1981\",\n                \"typeLogin\": null,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 18,\n            \"nameServices\": \"Установка ОС\",\n            \"priceServices\": \"540,99\"\n        }\n    },\n    {\n        \"id\": 14,\n        \"order\": {\n            \"id\": 9,\n            \"executorId\": 25,\n            \"dateOpenOrder\": \"07.02.2023 22:34:04\",\n            \"dateCloseOrder\": null,\n            \"orderStatus\": 1,\n            \"description\": null,\n            \"sum\": null,\n            \"inArchive\": 0,\n            \"categorial\": 1,\n            \"categorialNavigation\": {\n                \"id\": 1,\n                \"categorial\": \"Срочно\"\n            },\n            \"clients\": {\n                \"id\": 9,\n                \"fullName\": \"Зотов Платон Захарович\",\n                \"phone\": \"+7(331)118-2434\",\n                \"dateOfBirthd\": \"13.05.1975\",\n                \"personalSale\": \"23,20\"\n            },\n            \"manager\": {\n                \"id\": 22,\n                \"role\": 1,\n                \"fullName\": \"Лукьянова Ульяна Олеговна\",\n                \"email\": \"freineiciweijau888@yandex.ru\",\n                \"login\": \"lyckyanovayo\",\n                \"password\": \"JadQ24D5\",\n                \"phone\": \"+7(241) 570-3040\",\n                \"passport\": 1768266986,\n                \"dateOfBirthd\": \"22.10.1981\",\n                \"typeLogin\": null,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 1,\n                \"orderStatus1\": \"Новый \"\n            }\n        },\n        \"services\": {\n            \"id\": 11,\n            \"nameServices\": \"Индивидуальная настройка ОС\",\n            \"priceServices\": \"1100,00\"\n        }\n    },\n    {\n        \"id\": 15,\n        \"order\": {\n            \"id\": 10,\n            \"executorId\": 5,\n            \"dateOpenOrder\": \"08.02.2023 14:07:22\",\n            \"dateCloseOrder\": \"11.02.2023 15:05:00\",\n            \"orderStatus\": 2,\n            \"description\": null,\n            \"sum\": \"427,59\",\n            \"inArchive\": 0,\n            \"categorial\": 2,\n            \"categorialNavigation\": {\n                \"id\": 2,\n                \"categorial\": \"Не срочно\"\n            },\n            \"clients\": {\n                \"id\": 1,\n                \"fullName\": \"Потапов Макар Иванович\",\n                \"phone\": \"+7(781)285-5837\",\n                \"dateOfBirthd\": \"03.01.1990\",\n                \"personalSale\": \"12,89\"\n            },\n            \"manager\": {\n                \"id\": 24,\n                \"role\": 1,\n                \"fullName\": \"Быкова Виктория Тимуровна\",\n                \"email\": \"nokupekidda2001@gmail.com\",\n                \"login\": \"bykovavt\",\n                \"password\": \"nx8Z$K98\",\n                \"phone\": \"+7(854) 822-2331\",\n                \"passport\": 1806289145,\n                \"dateOfBirthd\": \"14.06.1973\",\n                \"typeLogin\": null,\n                \"roleNavigation\": {\n                    \"id\": 1,\n                    \"role1\": \"Менеджер\"\n                }\n            },\n            \"orderStatusNavigation\": {\n                \"id\": 2,\n                \"orderStatus1\": \"Завершен\"\n            }\n        },\n        \"services\": {\n            \"id\": 17,\n            \"nameServices\": \"Установка мультимедиа и интернет программ (плеер, браузер и пр.)\",\n            \"priceServices\": \"490,87\"\n        }\n    }\n]"
+        }
+      ]
+    }
+  ]
+}
